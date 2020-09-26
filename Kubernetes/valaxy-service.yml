@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: valaxy-service
+  name: oldmonk-service
   labels:
-    app: valaxy-devops-project
+    app: oldmonk-devops-project
 spec:
   selector:
-    app: valaxy-devops-project
+    app: oldmonk-devops-project
   type: LoadBalancer
   ports:
     - port: 8080
